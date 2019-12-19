@@ -1,13 +1,15 @@
-
-<?php 
-$name = $_POST['name'];
-$email = $_POST['email'];
-$phone = $_POST['phone'];
-$message = $_POST['message'];
-$formcontent="From: $name \n Message: $message";
-$recipient = "support@sherif-elt.com";
-$subject = "Contact Form";
-$mailheader = "From: $email \r\n";
-mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "Thank You!";
-?>
+<?php
+  if (isset($_POST['email']))  {
+  
+    //Email information
+    $admin_email = "support@sherif-elt.com";
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $message = $_POST['message'];
+    
+    //send email
+    mail($admin_email, "New Form Submission", $message . ' - ' . $phone, "From:" . $email);
+    
+    header('Location: http://sherif-elt.com');
+  }

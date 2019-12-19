@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="wellcome to Edgeledger">
+    <meta name="keywords" content="Edgeledger, edgeleadger.com.netlify.com">
+    <script src="https://kit.fontawesome.com/7a084eca53.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="/css/mobile.css">
+    <title>Edgeledger</title>
+</head>
+
+<body>
+    <nav id="nav-bar" class="bg-dark">
+        <div class="container">
+            <div class="nav">
+
+                <h2><span class="text-primary"><i class="fas fa-book-open"></i> Edge</span>ledger</h2>
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#what">What</a></li>
+                        <li><a href="#who">Who</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <header id="showcase">
+        <div class="showcase-content">
+            <h1 class="l-heading">The Sky Is The Limit</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus debitis praesentium inventore,
+                eum deserunt.</p>
+            <a href="#what" class="btn btn-primary">Read More</a>
+        </div>
+    </header>
+
+    <!-- What We Do -->
+    <section id="what">
+        <div class="container">
+            <h2><span class="text-primary">What</span> We Do</h2>
+            <div class="items">
+                <div class="item">
+                    <i class="fas fa-university fa-2x"></i>
+                    <div>
+                        <h3>Investment Banking</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum!</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <i class="fas fa-book-reader fa-2x"></i>
+                    <div>
+                        <h3>Portfolio Management</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum!</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <i class="fas fa-pencil-alt fa-2x"></i>
+                    <div>
+                        <h3>Tax & Custodial</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who we are -->
+
+    <section id="who">
+        <div class="who-img"></div>
+        <div class="who-text bg-dark p-2">
+            <h2> <span class="text-primary">Who</span> We Are</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora culpa harum voluptas ratione enim
+                consequuntur illo, atque, aut doloribus unde repellendus sit delectus beatae aspernatur placeat
+                corrupti. Ipsa, itaque quas.</p>
+            <h3>Our Team</h3>
+            <ul>
+                <li>Mark Smith: CEO</li>
+                <li>Shannon Johnson: CFO</li>
+                <li>John Corbit: Lead Accountant</li>
+                <li>Janet Williams: Investment Manager</li>
+                <li>Kara Jackson: Senior Accountant</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Our Client -->
+    <section id="clients" class="py-1">
+        <div class="container">
+            <h2> <span class="text-primary">Our</span> Clients</h2>
+            <div class="items">
+                <div><img src="/images/logos/logo1.png" alt="logo1"></div>
+                <div><img src="/images/logos/logo2.png" alt="logo1"></div>
+                <div><img src="/images/logos/logo3.png" alt="logo1"></div>
+                <div><img src="/images/logos/logo4.png" alt="logo1"></div>
+                <div><img src="/images/logos/logo5.png" alt="logo1"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact">
+        <div class="contact-form bg-primary p-2">
+            <h2>Contact Us</h2>
+            <p>Please use the form below to contact us</p>
+
+            <form class="form" action="process.php" method="post">
+                
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message*</label>
+                    <textarea name="message" id="message" cols="60" rows="10"></textarea>
+                </div>
+
+                <button type="submit" name="submit" class="btn btn-dark">Send</button>
+            </form>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2658.906784357546!2d16.37128201622445!3d48.208411379229226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d079f223feccf%3A0x179757f3fadc3159!2sStephansdom!5e0!3m2!1snl!2sat!4v1576679801459!5m2!1snl!2sat"
+                width="1400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark">
+        <p>Copyright © 2019, EdgeLedger, All Rights Reserved</p>
+    </footer>
+
+    <!-- fontawesome -->
+   
+    <!-- Jquary -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Javascript -->
+    <script src="main.js"></script>
+</body>
+
+</html>

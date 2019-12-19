@@ -1,8 +1,8 @@
 window.addEventListener('scroll', function() {
     if (window.scrollY > 150) {
-      document.querySelector('#navbar').style.opacity = 0.8;
+      document.querySelector('#nav-bar').style.opacity = 0.8;
     } else {
-      document.querySelector('#navbar').style.opacity = 1;
+      document.querySelector('#nav-bar').style.opacity = 1;
     }
   });
 

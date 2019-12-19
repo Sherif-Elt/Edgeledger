@@ -108,7 +108,10 @@ p {
 .p-3 { padding: 3rem; }
 
 /* Nav-bar */
-
+#nav-bar {
+    position: sticky;
+   top: 0;
+}
 .nav {
    display: flex;
    justify-content: space-between;
@@ -116,6 +119,7 @@ p {
    padding: 1rem;
    overflow: hidden;
    text-align: center;
+   
 }
 .nav h2 {
     margin: 0rem 0rem 0rem 0.5rem;
